@@ -1,0 +1,26 @@
+[
+  {
+    "id": "u_admin",
+    "name": "Nanuhm Admin",
+    "phone": "010-0000-0000",
+    "email": "qwer@gmail.com",
+    "password": "admin",
+    "role": "admin"
+  },
+  {
+    "id": "u_startup1",
+    "name": "김창업",
+    "phone": "010-1111-1111",
+    "email": "founder@fintech.example",
+    "password": "1234",
+    "role": "startup"
+  },
+  {
+    "id": "u_investor1",
+    "name": "이투자",
+    "phone": "010-2222-2222",
+    "email": "investor@vc.example",
+    "password": "1234",
+    "role": "investor"
+  }
+]

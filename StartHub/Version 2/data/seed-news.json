@@ -1,0 +1,38 @@
+[
+  {
+    "id": "n_001",
+    "title": "FinTech Innovators closes pre-seed round",
+    "body": "FinTech Innovators secured its pre-seed financing to expand the engineering team and accelerate the AI reconciliation engine.",
+    "category": "investment",
+    "startup_id": "s_001",
+    "date": "2026-01-20",
+    "created_at": "2026-01-20T10:00:00Z"
+  },
+  {
+    "id": "n_002",
+    "title": "FinTech Innovators ships v0.9 reconciliation engine",
+    "body": "A major technical milestone: the reconciliation engine now processes SME ledgers 40% faster.",
+    "category": "technological",
+    "startup_id": "s_001",
+    "date": "2026-01-22",
+    "created_at": "2026-01-22T10:00:00Z"
+  },
+  {
+    "id": "n_003",
+    "title": "EduTech Platform partners with regional school district",
+    "body": "EduTech Platform signed a pilot partnership covering 12 public schools.",
+    "category": "partnership",
+    "startup_id": "s_003",
+    "date": "2026-01-24",
+    "created_at": "2026-01-24T10:00:00Z"
+  },
+  {
+    "id": "n_004",
+    "title": "Nanuhm opens Spring 2026 startup exhibition",
+    "body": "Applications are now open for the Spring exhibition cohort. Ecosystem-wide announcement.",
+    "category": "administrative",
+    "startup_id": null,
+    "date": "2026-01-25",
+    "created_at": "2026-01-25T10:00:00Z"
+  }
+]

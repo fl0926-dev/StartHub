@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nanuhm — Auth</title>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body data-page="auth">
+  <header data-component="site-header"></header>
+
+  <main>
+    <div class="container form-narrow">
+      <h2 class="page-title" id="authTitle"></h2>
+      <form id="authForm">
+        <div id="signupOnly">
+          <div class="form-group">
+            <label data-i18n="auth.field.name"></label>
+            <input type="text" id="f_name">
+          </div>
+          <div class="form-group">
+            <label data-i18n="auth.field.phone"></label>
+            <input type="tel" id="f_phone">
+          </div>
+          <div class="form-group">
+            <label data-i18n="auth.field.role"></label>
+            <div class="role-options">
+              <label><input type="radio" name="role" value="investor" checked> <span data-i18n="auth.role.investor"></span></label>
+              <label><input type="radio" name="role" value="startup"> <span data-i18n="auth.role.startup"></span></label>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label data-i18n="auth.field.email"></label>
+          <input type="email" id="f_email" required>
+        </div>
+        <div class="form-group">
+          <label data-i18n="auth.field.password"></label>
+          <input type="password" id="f_password" required>
+        </div>
+        <p class="form-msg" id="authMsg"></p>
+        <button type="submit" class="btn btn-primary btn-large" id="authSubmit"></button>
+      </form>
+      <p style="margin-top:16px"><a href="#" id="authToggle"></a></p>
+    </div>
+  </main>
+
+  <footer data-component="site-footer"></footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/schema.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

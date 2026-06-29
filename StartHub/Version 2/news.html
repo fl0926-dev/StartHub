@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nanuhm — News</title>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body data-page="news">
+  <header data-component="site-header"></header>
+
+  <main>
+    <div class="container">
+      <h2 class="page-title" data-i18n="news.title"></h2>
+      <div class="news-tabs" id="newsCats"></div>
+      <div class="news-feed" id="newsFeed"></div>
+      <div class="no-results" id="newsEmpty" style="display:none"><p data-i18n="news.empty"></p></div>
+    </div>
+  </main>
+
+  <footer data-component="site-footer"></footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/schema.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

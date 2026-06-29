@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nanuhm — My Page</title>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body data-page="account">
+  <header data-component="site-header"></header>
+
+  <main>
+    <div class="container">
+      <h2 class="page-title" data-i18n="account.title"></h2>
+      <p class="muted" id="accountName" style="margin-bottom:24px"></p>
+
+      <!-- startup-only: my companies + view-count trend -->
+      <section class="account-section" id="mineSection" style="display:none; margin-bottom:24px">
+        <h3 data-i18n="account.mine"></h3>
+        <div id="mineList"></div>
+        <a class="btn btn-primary btn-small" href="apply.html" style="margin-top:8px" data-i18n="account.register"></a>
+        <h3 style="margin-top:16px" data-i18n="account.trends"></h3>
+        <canvas id="trendChart" height="120"></canvas>
+      </section>
+
+      <div class="account-grid">
+        <section class="account-section">
+          <h3 data-i18n="account.bookmarks"></h3>
+          <div id="bookmarksList"></div>
+        </section>
+        <section class="account-section">
+          <h3 data-i18n="account.contacting"></h3>
+          <div id="contactingList"></div>
+        </section>
+        <section class="account-section">
+          <h3 data-i18n="account.viewed"></h3>
+          <div id="viewedList"></div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer data-component="site-footer"></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+  <script src="js/api.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/schema.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
