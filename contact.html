@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Nanuhm Angels</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <h1 class="logo"><a href="index.html" data-ko="웹사이트 이름" data-en="Website Name">웹사이트 이름</a></h1>
+                <nav class="nav">
+                    <a href="startups.html" class="nav-link" data-ko="startups" data-en="startups">startups</a>
+                    <a href="contact.html" class="nav-link active" data-ko="Contact" data-en="Contact">Contact</a>
+                    <button id="langToggle" class="lang-btn">한/eng</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- 문의 폼 -->
+    <main class="contact-page">
+        <div class="container">
+            <div class="contact-container">
+                <h1 data-ko="문의하기" data-en="Contact Us">문의하기</h1>
+                <p class="contact-subtitle" data-ko="궁금한 사항이나 문의 내용을 남겨주세요. 빠른 시일 내에 답변드리겠습니다." data-en="Leave your questions or inquiries. We will respond as soon as possible.">궁금한 사항이나 문의 내용을 남겨주세요. 빠른 시일 내에 답변드리겠습니다.</p>
+                
+                <form id="contactForm" class="contact-form">
+                    <!-- 이름 -->
+                    <div class="form-group">
+                        <label for="name" data-ko="이름" data-en="Name">이름</label>
+                        <input type="text" id="name" name="name" required placeholder="">
+                    </div>
+
+                    <!-- 이메일 -->
+                    <div class="form-group">
+                        <label for="email" data-ko="이메일" data-en="Email">이메일</label>
+                        <input type="email" id="email" name="email" required placeholder="">
+                    </div>
+
+                    <!-- 문의 제목 -->
+                    <div class="form-group">
+                        <label for="subject" data-ko="문의 제목" data-en="Subject">문의 제목</label>
+                        <input type="text" id="subject" name="subject" required placeholder="">
+                    </div>
+
+                    <!-- 문의 내용 -->
+                    <div class="form-group">
+                        <label for="message" data-ko="문의 내용" data-en="Message">문의 내용</label>
+                        <textarea id="message" name="message" rows="8" required placeholder=""></textarea>
+                    </div>
+
+                    <!-- 제출 버튼 -->
+                    <button type="submit" class="btn btn-primary btn-large" data-ko="제출하기" data-en="Submit">제출하기</button>
+                </form>
+
+                <!-- 성공 메시지 -->
+                <div id="successMessage" class="success-message" style="display: none;">
+                    <p data-ko="문의가 성공적으로 전송되었습니다!" data-en="Your inquiry has been successfully sent!">문의가 성공적으로 전송되었습니다!</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <p data-ko="© 2026 나눔엔젤스. All rights reserved." data-en="© 2026 Nanuhm Angels. All rights reserved.">© 2026 나눔엔젤스. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
