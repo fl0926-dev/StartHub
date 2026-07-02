@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "id": "prd_pack_s",
+      "kind": "pack",
+      "name_ko": "토큰 100개",
+      "name_en": "100 Tokens",
+      "tokens": 100,
+      "price_krw": 4900,
+      "period": null,
+      "perks_ko": [
+        "게시글 20개 또는 댓글 50개",
+        "유효기간 없음"
+      ],
+      "perks_en": [
+        "20 posts or 50 replies",
+        "Never expires"
+      ],
+      "highlight": false,
+      "sort_order": 1
+    },
+    {
+      "id": "prd_pack_m",
+      "kind": "pack",
+      "name_ko": "토큰 300개",
+      "name_en": "300 Tokens",
+      "tokens": 300,
+      "price_krw": 12900,
+      "period": null,
+      "perks_ko": [
+        "12% 할인",
+        "게시글 60개 분량",
+        "유효기간 없음"
+      ],
+      "perks_en": [
+        "12% off",
+        "Enough for 60 posts",
+        "Never expires"
+      ],
+      "highlight": true,
+      "sort_order": 2
+    },
+    {
+      "id": "prd_pack_l",
+      "kind": "pack",
+      "name_ko": "토큰 1,000개",
+      "name_en": "1,000 Tokens",
+      "tokens": 1000,
+      "price_krw": 39000,
+      "period": null,
+      "perks_ko": [
+        "21% 할인",
+        "팀 단위 사용 추천",
+        "유효기간 없음"
+      ],
+      "perks_en": [
+        "21% off",
+        "Great for teams",
+        "Never expires"
+      ],
+      "highlight": false,
+      "sort_order": 3
+    },
+    {
+      "id": "prd_mem_basic",
+      "kind": "membership",
+      "name_ko": "베이직 멤버십",
+      "name_en": "Basic Membership",
+      "tokens": null,
+      "price_krw": 9900,
+      "period": "monthly",
+      "perks_ko": [
+        "매월 토큰 200개 지급",
+        "프로필 노출 부스트",
+        "뉴스레터 구독"
+      ],
+      "perks_en": [
+        "200 tokens monthly",
+        "Profile visibility boost",
+        "Newsletter access"
+      ],
+      "highlight": false,
+      "sort_order": 4
+    },
+    {
+      "id": "prd_mem_pro",
+      "kind": "membership",
+      "name_ko": "프로 멤버십",
+      "name_en": "Pro Membership",
+      "tokens": null,
+      "price_krw": 29000,
+      "period": "monthly",
+      "perks_ko": [
+        "매월 토큰 700개 지급",
+        "프로필 상단 고정 1회/월",
+        "투자자 열람 알림",
+        "우선 지원"
+      ],
+      "perks_en": [
+        "700 tokens monthly",
+        "1 pinned profile slot/month",
+        "Investor view alerts",
+        "Priority support"
+      ],
+      "highlight": true,
+      "sort_order": 5
+    },
+    {
+      "id": "prd_mem_ent",
+      "kind": "membership",
+      "name_ko": "엔터프라이즈",
+      "name_en": "Enterprise",
+      "tokens": null,
+      "price_krw": 99000,
+      "period": "monthly",
+      "perks_ko": [
+        "토큰 무제한",
+        "팀 계정 5석",
+        "멘토링 대시보드 연동",
+        "전담 매니저"
+      ],
+      "perks_en": [
+        "Unlimited tokens",
+        "5 team seats",
+        "Mentoring dashboard access",
+        "Dedicated manager"
+      ],
+      "highlight": false,
+      "sort_order": 6
+    }
+  ]
+}

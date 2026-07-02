@@ -1,0 +1,103 @@
+{
+  "items": [
+    {
+      "id": "thr_seed01",
+      "author_id": "usr_farmlink",
+      "category": "funding",
+      "title": "지방 소재 스타트업 시리즈A 준비, IR 자료에서 '지역 리스크' 질문 어떻게 방어하시나요?",
+      "body": "수도권 VC 미팅마다 '팀이 지방에 있는데 채용은 어떻게 할 거냐'는 질문을 받습니다. 저희는 오히려 이탈률이 낮다는 데이터로 대응 중인데, 다른 대표님들은 어떤 논리로 풀어가시는지 궁금합니다.",
+      "upvotes": 14,
+      "reply_count": 3,
+      "views": 220,
+      "created_at": "2026-06-10T09:00:00+00:00"
+    },
+    {
+      "id": "thr_seed02",
+      "author_id": "usr_hanbat_ai",
+      "category": "tech",
+      "title": "제조 현장 엣지 디바이스에서 비전 모델 경량화 경험 공유합니다",
+      "body": "대전 산단 고객사 라인에 Jetson 기반으로 배포하면서 얻은 교훈 정리했습니다. 양자화보다 입력 해상도 조정이 체감 효과가 컸고, 현장 조도 변화 대응이 제일 어려웠습니다. 비슷한 환경 겪으신 분들과 노하우 나누고 싶습니다.",
+      "upvotes": 22,
+      "reply_count": 2,
+      "views": 340,
+      "created_at": "2026-06-12T09:00:00+00:00"
+    },
+    {
+      "id": "thr_seed03",
+      "author_id": "usr_jeju_stay",
+      "category": "marketing",
+      "title": "로컬 서비스 초기 유저 확보, 인스타 릴스 vs 네이버 플레이스 어디에 집중?",
+      "body": "제주 워케이션 스테이 운영 중입니다. 마케팅 예산이 월 100만원 수준인데 채널을 하나로 몰아야 할지, 둘 다 얇게 가져가야 할지 고민입니다. 숙박/로컬 쪽 전환율 데이터 있으신 분 계신가요?",
+      "upvotes": 9,
+      "reply_count": 1,
+      "views": 180,
+      "created_at": "2026-06-14T09:00:00+00:00"
+    },
+    {
+      "id": "thr_seed04",
+      "author_id": "usr_ocean",
+      "category": "qna",
+      "title": "예비창업패키지 사업계획서, 기술성 파트에 특허 출원 '예정'만 있어도 감점일까요?",
+      "body": "출원 준비 중인 상태로 제출하려고 합니다. 심사 경험 있으신 분들 조언 부탁드립니다.",
+      "upvotes": 6,
+      "reply_count": 1,
+      "views": 151,
+      "created_at": "2026-06-16T09:00:00+00:00"
+    },
+    {
+      "id": "thr_seed05",
+      "author_id": "usr_jeonnam_sea",
+      "category": "funding",
+      "title": "지역 모태펀드 (지역혁신 벤처펀드) 실제로 받아보신 분 후기 궁금합니다",
+      "body": "전남권에서 대체식품 개발 중인데, 지역혁신 벤처펀드 출자 GP 리스트를 보고 콜드메일을 돌리는 게 나을지, 지자체 연계 프로그램을 먼저 타는 게 나을지 판단이 안 섭니다.",
+      "upvotes": 11,
+      "reply_count": 0,
+      "views": 190,
+      "created_at": "2026-06-18T09:00:00+00:00"
+    },
+    {
+      "id": "thr_seed06",
+      "author_id": "usr_sejong_edu",
+      "category": "marketing",
+      "title": "B2B2C 에듀테크, 학교 영업과 학부모 직접 마케팅 병행 전략 공유",
+      "body": "세종/충청권 학교 30곳 파일럿 돌리면서 배운 점: 결정권자는 교장이 아니라 부장교사인 경우가 많았습니다. 학부모 커뮤니티 카페 운영 노하우도 댓글로 나눠요.",
+      "upvotes": 17,
+      "reply_count": 0,
+      "views": 260,
+      "created_at": "2026-06-20T09:00:00+00:00"
+    },
+    {
+      "id": "thr_seed07",
+      "author_id": "usr_gyeongnam_robot",
+      "category": "tech",
+      "title": "조선소 현장 PoC에서 배운 것: 하드웨어 스타트업의 현장 검증 체크리스트",
+      "body": "3년간 현장 PoC 7번 실패하고 정리한 체크리스트입니다. 안전 인증, 현장 노조 커뮤니케이션, 예비 부품 리드타임까지—하드웨어 하시는 분들께 도움이 되길 바랍니다.",
+      "upvotes": 31,
+      "reply_count": 1,
+      "views": 411,
+      "created_at": "2026-06-22T09:00:00+00:00"
+    },
+    {
+      "id": "thr_seed08",
+      "author_id": "usr_chungnam_fin",
+      "category": "qna",
+      "title": "전통시장 상인회와 제휴 계약서 쓸 때 주의할 점 있을까요?",
+      "body": "지역화폐 연동 결제 서비스를 시장 단위로 계약하려고 합니다. 상인회가 법인이 아닌 경우가 많던데 계약 주체를 어떻게 잡아야 하는지 경험담 부탁드립니다.",
+      "upvotes": 4,
+      "reply_count": 0,
+      "views": 97,
+      "created_at": "2026-06-24T09:00:00+00:00"
+    },
+    {
+      "id": "thr_7b042f50b80e",
+      "author_id": "usr_27637064a67a",
+      "category": "marketing",
+      "title": "테스팅",
+      "body": "ㅎㅇ요",
+      "upvotes": 0,
+      "reply_count": 0,
+      "views": 1,
+      "created_at": "2026-07-02T09:20:05+00:00"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "id": "vot_000",
+      "user_id": "usr_demo",
+      "target_type": "thread",
+      "target_id": "thr_seed02",
+      "created_at": "2026-06-25T01:00:00+00:00"
+    },
+    {
+      "id": "vot_001",
+      "user_id": "usr_demo",
+      "target_type": "thread",
+      "target_id": "thr_seed07",
+      "created_at": "2026-06-25T02:00:00+00:00"
+    },
+    {
+      "id": "vot_002",
+      "user_id": "usr_ocean",
+      "target_type": "thread",
+      "target_id": "thr_seed01",
+      "created_at": "2026-06-25T03:00:00+00:00"
+    },
+    {
+      "id": "vot_003",
+      "user_id": "usr_ocean",
+      "target_type": "thread",
+      "target_id": "thr_seed07",
+      "created_at": "2026-06-25T04:00:00+00:00"
+    },
+    {
+      "id": "vot_004",
+      "user_id": "usr_medisync",
+      "target_type": "thread",
+      "target_id": "thr_seed07",
+      "created_at": "2026-06-25T05:00:00+00:00"
+    },
+    {
+      "id": "vot_005",
+      "user_id": "usr_farmlink",
+      "target_type": "reply",
+      "target_id": "rpl_b1",
+      "created_at": "2026-06-25T06:00:00+00:00"
+    },
+    {
+      "id": "vot_006",
+      "user_id": "usr_demo",
+      "target_type": "reply",
+      "target_id": "rpl_a1",
+      "created_at": "2026-06-25T07:00:00+00:00"
+    },
+    {
+      "id": "vot_007",
+      "user_id": "usr_ocean",
+      "target_type": "reply",
+      "target_id": "rpl_a1",
+      "created_at": "2026-06-25T08:00:00+00:00"
+    }
+  ]
+}

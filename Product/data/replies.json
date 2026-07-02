@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "rpl_a1",
+      "thread_id": "thr_seed01",
+      "author_id": "usr_medisync",
+      "parent_reply_id": null,
+      "body": "저희는 '지역 거점 병원 네트워크가 진입장벽'이라는 프레임으로 뒤집었습니다. 지역이 리스크가 아니라 해자라는 걸 숫자로 보여주면 분위기가 바뀝니다.",
+      "upvotes": 8,
+      "created_at": "2026-06-11T02:00:00+00:00"
+    },
+    {
+      "id": "rpl_a2",
+      "thread_id": "thr_seed01",
+      "author_id": "usr_gyeongnam_robot",
+      "parent_reply_id": null,
+      "body": "시리즈B까지 창원에서 왔습니다. 핵심 직군은 원격+분기 오프사이트로 풀었고, IR에서는 인건비 효율을 강조했습니다.",
+      "upvotes": 6,
+      "created_at": "2026-06-11T02:00:00+00:00"
+    },
+    {
+      "id": "rpl_a3",
+      "thread_id": "thr_seed01",
+      "author_id": "usr_demo",
+      "parent_reply_id": "rpl_a1",
+      "body": "해자 프레임 좋네요. 저희도 부산 항만 인프라 접근성을 같은 방식으로 정리해봐야겠습니다.",
+      "upvotes": 2,
+      "created_at": "2026-06-12T02:00:00+00:00"
+    },
+    {
+      "id": "rpl_b1",
+      "thread_id": "thr_seed02",
+      "author_id": "usr_ulsan_h2",
+      "parent_reply_id": null,
+      "body": "조도 문제는 저희도 겪었습니다. 결국 조명 표준화를 고객사 설비 투자로 넣는 게 모델 튜닝보다 쌌습니다.",
+      "upvotes": 7,
+      "created_at": "2026-06-13T02:00:00+00:00"
+    },
+    {
+      "id": "rpl_b2",
+      "thread_id": "thr_seed02",
+      "author_id": "usr_ocean",
+      "parent_reply_id": null,
+      "body": "혹시 데이터 라벨링은 현장 인력이 하시나요, 외주인가요? 저희는 검수 품질 편차 때문에 고민입니다.",
+      "upvotes": 3,
+      "created_at": "2026-06-13T02:00:00+00:00"
+    },
+    {
+      "id": "rpl_c1",
+      "thread_id": "thr_seed03",
+      "author_id": "usr_busan_tour",
+      "parent_reply_id": null,
+      "body": "로컬 여행 쪽 경험상 네이버 플레이스 리뷰 20개가 릴스 조회수 10만보다 예약 전환이 좋았습니다. 검색 의도가 있는 채널부터 잡으세요.",
+      "upvotes": 5,
+      "created_at": "2026-06-15T02:00:00+00:00"
+    },
+    {
+      "id": "rpl_d1",
+      "thread_id": "thr_seed04",
+      "author_id": "usr_hanbat_ai",
+      "parent_reply_id": null,
+      "body": "작년 선정 경험상 '출원 예정'은 감점보다는 무근거가 문제입니다. 선행기술조사 결과와 출원 일정표를 붙이면 충분히 커버됩니다.",
+      "upvotes": 4,
+      "created_at": "2026-06-17T02:00:00+00:00"
+    },
+    {
+      "id": "rpl_e1",
+      "thread_id": "thr_seed07",
+      "author_id": "usr_demo",
+      "parent_reply_id": null,
+      "body": "체크리스트 정말 유용합니다. 안전 인증 항목은 해양 쪽에도 그대로 적용되네요. 공유 감사합니다.",
+      "upvotes": 3,
+      "created_at": "2026-06-23T02:00:00+00:00"
+    }
+  ]
+}

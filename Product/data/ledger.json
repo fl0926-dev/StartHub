@@ -1,0 +1,214 @@
+{
+  "items": [
+    {
+      "id": "led_signup_usr_demo",
+      "user_id": "usr_demo",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_demo",
+      "balance_after": 20,
+      "created_at": "2026-06-01T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_farmlink",
+      "user_id": "usr_farmlink",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_farmlink",
+      "balance_after": 20,
+      "created_at": "2026-06-02T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_medisync",
+      "user_id": "usr_medisync",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_medisync",
+      "balance_after": 20,
+      "created_at": "2026-06-03T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_hanbat_ai",
+      "user_id": "usr_hanbat_ai",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_hanbat_ai",
+      "balance_after": 20,
+      "created_at": "2026-06-04T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_jeju_stay",
+      "user_id": "usr_jeju_stay",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_jeju_stay",
+      "balance_after": 20,
+      "created_at": "2026-06-05T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_gwangju_ev",
+      "user_id": "usr_gwangju_ev",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_gwangju_ev",
+      "balance_after": 20,
+      "created_at": "2026-06-06T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_ulsan_h2",
+      "user_id": "usr_ulsan_h2",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_ulsan_h2",
+      "balance_after": 20,
+      "created_at": "2026-06-07T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_gangwon_agri",
+      "user_id": "usr_gangwon_agri",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_gangwon_agri",
+      "balance_after": 20,
+      "created_at": "2026-06-08T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_chungbuk_bio",
+      "user_id": "usr_chungbuk_bio",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_chungbuk_bio",
+      "balance_after": 20,
+      "created_at": "2026-06-09T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_jeonbuk_food",
+      "user_id": "usr_jeonbuk_food",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_jeonbuk_food",
+      "balance_after": 20,
+      "created_at": "2026-06-10T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_jeonnam_sea",
+      "user_id": "usr_jeonnam_sea",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_jeonnam_sea",
+      "balance_after": 20,
+      "created_at": "2026-06-01T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_gyeongnam_robot",
+      "user_id": "usr_gyeongnam_robot",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_gyeongnam_robot",
+      "balance_after": 20,
+      "created_at": "2026-06-02T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_sejong_edu",
+      "user_id": "usr_sejong_edu",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_sejong_edu",
+      "balance_after": 20,
+      "created_at": "2026-06-03T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_chungnam_fin",
+      "user_id": "usr_chungnam_fin",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_chungnam_fin",
+      "balance_after": 20,
+      "created_at": "2026-06-04T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_busan_tour",
+      "user_id": "usr_busan_tour",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_busan_tour",
+      "balance_after": 20,
+      "created_at": "2026-06-05T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_ocean",
+      "user_id": "usr_ocean",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_ocean",
+      "balance_after": 20,
+      "created_at": "2026-06-02T09:00:00+00:00"
+    },
+    {
+      "id": "led_signup_usr_mentor",
+      "user_id": "usr_mentor",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_mentor",
+      "balance_after": 20,
+      "created_at": "2026-06-01T09:00:00+00:00"
+    },
+    {
+      "id": "led_demo_r1",
+      "user_id": "usr_demo",
+      "delta": -2,
+      "reason": "reply_post",
+      "ref_type": "reply",
+      "ref_id": "rpl_a3",
+      "balance_after": 18,
+      "created_at": "2026-06-12T03:00:00+00:00"
+    },
+    {
+      "id": "led_demo_r2",
+      "user_id": "usr_demo",
+      "delta": -2,
+      "reason": "reply_post",
+      "ref_type": "reply",
+      "ref_id": "rpl_e1",
+      "balance_after": 16,
+      "created_at": "2026-06-23T03:00:00+00:00"
+    },
+    {
+      "id": "led_52063d425378",
+      "user_id": "usr_27637064a67a",
+      "delta": 20,
+      "reason": "signup_bonus",
+      "ref_type": "user",
+      "ref_id": "usr_27637064a67a",
+      "balance_after": 20,
+      "created_at": "2026-07-02T09:19:40+00:00"
+    },
+    {
+      "id": "led_9355e1701057",
+      "user_id": "usr_27637064a67a",
+      "delta": -5,
+      "reason": "thread_post",
+      "ref_type": "thread",
+      "ref_id": "thr_7b042f50b80e",
+      "balance_after": 15,
+      "created_at": "2026-07-02T09:20:05+00:00"
+    }
+  ]
+}

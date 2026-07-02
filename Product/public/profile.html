@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StartHub — 회사 프로필</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <script defer src="js/i18n.js"></script>
+  <script defer src="js/api.js"></script>
+  <script defer src="js/auth.js"></script>
+  <script defer src="js/components.js"></script>
+  <script defer src="js/header.js"></script>
+  <script defer src="js/pages/profile-view.js"></script>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="container">
+    <div id="profile-root">
+      <div id="profile-content" class="stack" hidden>
+        <div class="card stack-sm" id="hero-card"></div>
+
+        <hr class="rule-ticks" aria-hidden="true">
+
+        <section aria-labelledby="metrics-heading" class="stack-sm">
+          <h2 id="metrics-heading" data-i18n="profile.metrics"></h2>
+          <div class="card">
+            <div class="metric-row" id="metrics-row"></div>
+          </div>
+        </section>
+
+        <section aria-labelledby="about-heading" class="stack-sm">
+          <h2 id="about-heading" data-i18n="profile.about"></h2>
+          <div class="card" id="about-card"></div>
+          <p class="small muted mono" id="profile-meta"></p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>

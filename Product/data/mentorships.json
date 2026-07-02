@@ -1,0 +1,176 @@
+{
+  "items": [
+    {
+      "id": "mnt_01",
+      "mentor_id": "usr_mentor",
+      "startup_profile_id": "prf_jeju_stay",
+      "stage": "matching",
+      "stage_progress_pct": 40,
+      "kpis": [
+        {
+          "key": "mau",
+          "value": "2,800",
+          "delta_pct": 12.0
+        },
+        {
+          "key": "runway_months",
+          "value": "9",
+          "delta_pct": 0.0
+        }
+      ],
+      "history": [
+        {
+          "stage": "matching",
+          "entered_at": "2026-06-02T09:00:00+00:00"
+        }
+      ],
+      "notes": "초기 미팅 완료, 상호 목표 정렬 문서 작성 중.",
+      "started_at": "2026-06-02T09:00:00+00:00",
+      "updated_at": "2026-06-02T09:00:00+00:00"
+    },
+    {
+      "id": "mnt_02",
+      "mentor_id": "usr_mentor",
+      "startup_profile_id": "prf_hanbat_ai",
+      "stage": "diagnosis",
+      "stage_progress_pct": 65,
+      "kpis": [
+        {
+          "key": "pilot_lines",
+          "value": "3",
+          "delta_pct": 50.0
+        },
+        {
+          "key": "mrr",
+          "value": "₩12M",
+          "delta_pct": 8.5
+        }
+      ],
+      "history": [
+        {
+          "stage": "matching",
+          "entered_at": "2026-06-05T09:00:00+00:00"
+        },
+        {
+          "stage": "diagnosis",
+          "entered_at": "2026-06-08T09:00:00+00:00"
+        }
+      ],
+      "notes": "재무 구조 진단 완료. 단가 정책 재설계가 핵심 과제로 식별됨.",
+      "started_at": "2026-06-05T09:00:00+00:00",
+      "updated_at": "2026-06-08T09:00:00+00:00"
+    },
+    {
+      "id": "mnt_03",
+      "mentor_id": "usr_mentor",
+      "startup_profile_id": "prf_farmlink",
+      "stage": "tasks",
+      "stage_progress_pct": 30,
+      "kpis": [
+        {
+          "key": "subscribers",
+          "value": "4,100",
+          "delta_pct": 15.2
+        },
+        {
+          "key": "churn_pct",
+          "value": "6.8%",
+          "delta_pct": -1.1
+        }
+      ],
+      "history": [
+        {
+          "stage": "matching",
+          "entered_at": "2026-06-08T09:00:00+00:00"
+        },
+        {
+          "stage": "diagnosis",
+          "entered_at": "2026-06-11T09:00:00+00:00"
+        },
+        {
+          "stage": "tasks",
+          "entered_at": "2026-06-14T09:00:00+00:00"
+        }
+      ],
+      "notes": "과제 1(물류비 구조 개선) 진행 중, 과제 2(리텐션)는 다음 주 착수.",
+      "started_at": "2026-06-08T09:00:00+00:00",
+      "updated_at": "2026-06-14T09:00:00+00:00"
+    },
+    {
+      "id": "mnt_04",
+      "mentor_id": "usr_mentor",
+      "startup_profile_id": "prf_gwangju_ev",
+      "stage": "tasks",
+      "stage_progress_pct": 80,
+      "kpis": [
+        {
+          "key": "fleet",
+          "value": "42대",
+          "delta_pct": 20.0
+        },
+        {
+          "key": "utilization",
+          "value": "71%",
+          "delta_pct": 5.4
+        }
+      ],
+      "history": [
+        {
+          "stage": "matching",
+          "entered_at": "2026-06-08T09:00:00+00:00"
+        },
+        {
+          "stage": "diagnosis",
+          "entered_at": "2026-06-11T09:00:00+00:00"
+        },
+        {
+          "stage": "tasks",
+          "entered_at": "2026-06-14T09:00:00+00:00"
+        }
+      ],
+      "notes": "물류사 제휴 과제 마무리 단계. 최종 리뷰 일정 조율 중.",
+      "started_at": "2026-06-08T09:00:00+00:00",
+      "updated_at": "2026-06-14T09:00:00+00:00"
+    },
+    {
+      "id": "mnt_05",
+      "mentor_id": "usr_mentor",
+      "startup_profile_id": "prf_jeonbuk_food",
+      "stage": "review",
+      "stage_progress_pct": 100,
+      "kpis": [
+        {
+          "key": "gmv",
+          "value": "₩380M",
+          "delta_pct": 22.0
+        },
+        {
+          "key": "b2b_accounts",
+          "value": "86",
+          "delta_pct": 30.3
+        }
+      ],
+      "history": [
+        {
+          "stage": "matching",
+          "entered_at": "2026-06-01T09:00:00+00:00"
+        },
+        {
+          "stage": "diagnosis",
+          "entered_at": "2026-06-04T09:00:00+00:00"
+        },
+        {
+          "stage": "tasks",
+          "entered_at": "2026-06-07T09:00:00+00:00"
+        },
+        {
+          "stage": "review",
+          "entered_at": "2026-06-10T09:00:00+00:00"
+        }
+      ],
+      "notes": "멘토링 종료. 후속 시드 브릿지 라운드 투자 검토 의견서 작성 완료.",
+      "started_at": "2026-06-01T09:00:00+00:00",
+      "updated_at": "2026-06-10T09:00:00+00:00"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StartHub — 커뮤니티</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <script defer src="js/i18n.js"></script>
+  <script defer src="js/api.js"></script>
+  <script defer src="js/auth.js"></script>
+  <script defer src="js/components.js"></script>
+  <script defer src="js/header.js"></script>
+  <script defer src="js/pages/community.js"></script>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="container">
+    <div class="page-head">
+      <span class="eyebrow">
+        <span class="node-dot" aria-hidden="true"></span>
+        COMMUNITY THREADS
+      </span>
+      <h1 data-i18n="community.title"></h1>
+      <p class="lede" data-i18n="community.lede"></p>
+    </div>
+    <hr class="rule-ticks" aria-hidden="true">
+
+    <div id="category-tabs" class="tabs" role="tablist"></div>
+
+    <div class="row-between" style="margin-bottom: var(--sp-4)">
+      <label class="row small">
+        <span class="muted" data-i18n="common.sort"></span>
+        <select class="select" id="sort-select" style="width:auto">
+          <option value="new" data-i18n="community.sort.new"></option>
+          <option value="top" data-i18n="community.sort.top"></option>
+        </select>
+      </label>
+      <button type="button" id="new-thread-btn" class="btn btn-copper">
+        <span data-i18n="community.new_thread"></span>
+        <span class="cost" id="new-thread-cost"></span>
+      </button>
+    </div>
+
+    <section id="thread-list" aria-live="polite"></section>
+  </main>
+
+  <dialog class="modal" id="new-thread-modal">
+    <form id="new-thread-form" class="stack" novalidate>
+      <h2 data-i18n="community.modal_title"></h2>
+      <div class="field">
+        <label for="thread-category" data-i18n="community.category"></label>
+        <select class="select" id="thread-category" name="category" required></select>
+      </div>
+      <div class="field">
+        <label for="thread-title" data-i18n="community.thread_title"></label>
+        <input class="input" id="thread-title" name="title" type="text" maxlength="200" required>
+      </div>
+      <div class="field">
+        <label for="thread-body" data-i18n="community.thread_body"></label>
+        <textarea class="textarea" id="thread-body" name="body" required></textarea>
+      </div>
+      <p class="small muted mono" id="modal-cost"></p>
+      <div class="row" style="justify-content: flex-end">
+        <button type="button" class="btn btn-secondary" id="modal-cancel" data-i18n="common.cancel"></button>
+        <button type="submit" class="btn btn-copper" data-i18n="community.new_thread"></button>
+      </div>
+    </form>
+  </dialog>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>

@@ -1,0 +1,409 @@
+{
+  "items": [
+    {
+      "id": "prf_greenwave",
+      "user_id": "usr_demo",
+      "name": "그린웨이브",
+      "one_liner": "부산 해양 폐플라스틱을 재생 소재로 바꾸는 업사이클링 플랫폼",
+      "description": "그린웨이브은(는) 2023년 창업한 부산 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 8명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "busan",
+      "industry": "energy_env",
+      "funding_stage": "seed",
+      "founded_year": 2023,
+      "team_size": 8,
+      "team_bucket": "6_10",
+      "hashtags": [
+        "업사이클링",
+        "해양폐기물",
+        "ESG"
+      ],
+      "metrics": {
+        "mau": 4200,
+        "revenue_band": "1억~5억",
+        "growth_rate_pct": 38.0,
+        "total_funding_krw": 800000000
+      },
+      "views": 12,
+      "created_at": "2026-06-02T09:00:00+00:00",
+      "updated_at": "2026-06-02T09:00:00+00:00"
+    },
+    {
+      "id": "prf_farmlink",
+      "user_id": "usr_farmlink",
+      "name": "팜링크",
+      "one_liner": "경북 과수 농가와 도시 소비자를 잇는 산지직송 구독 커머스",
+      "description": "팜링크은(는) 2022년 창업한 경북 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 14명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "gyeongbuk",
+      "industry": "agri_food",
+      "funding_stage": "pre_a",
+      "founded_year": 2022,
+      "team_size": 14,
+      "team_bucket": "11_30",
+      "hashtags": [
+        "산지직송",
+        "구독",
+        "푸드테크"
+      ],
+      "metrics": {
+        "mau": 18500,
+        "revenue_band": "5억~10억",
+        "growth_rate_pct": 24.5,
+        "total_funding_krw": 2400000000
+      },
+      "views": 49,
+      "created_at": "2026-06-03T09:00:00+00:00",
+      "updated_at": "2026-06-03T09:00:00+00:00"
+    },
+    {
+      "id": "prf_medisync",
+      "user_id": "usr_medisync",
+      "name": "메디싱크",
+      "one_liner": "대구 지역 병원 간 진료 데이터 연동 SaaS",
+      "description": "메디싱크은(는) 2021년 창업한 대구 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 27명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "daegu",
+      "industry": "biohealth",
+      "funding_stage": "series_a",
+      "founded_year": 2021,
+      "team_size": 27,
+      "team_bucket": "11_30",
+      "hashtags": [
+        "의료데이터",
+        "SaaS",
+        "인터오퍼러빌리티"
+      ],
+      "metrics": {
+        "mau": 950,
+        "revenue_band": "10억+",
+        "growth_rate_pct": 41.2,
+        "total_funding_krw": 7500000000
+      },
+      "views": 86,
+      "created_at": "2026-06-04T09:00:00+00:00",
+      "updated_at": "2026-06-04T09:00:00+00:00"
+    },
+    {
+      "id": "prf_hanbat_ai",
+      "user_id": "usr_hanbat_ai",
+      "name": "한밭에이아이",
+      "one_liner": "대전 제조 중소기업을 위한 불량 검출 비전 AI",
+      "description": "한밭에이아이은(는) 2023년 창업한 대전 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 6명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "daejeon",
+      "industry": "ai_data",
+      "funding_stage": "seed",
+      "founded_year": 2023,
+      "team_size": 6,
+      "team_bucket": "6_10",
+      "hashtags": [
+        "비전AI",
+        "스마트팩토리",
+        "제조혁신"
+      ],
+      "metrics": {
+        "mau": 320,
+        "revenue_band": "1억 미만",
+        "growth_rate_pct": 55.0,
+        "total_funding_krw": 1200000000
+      },
+      "views": 123,
+      "created_at": "2026-06-05T09:00:00+00:00",
+      "updated_at": "2026-06-05T09:00:00+00:00"
+    },
+    {
+      "id": "prf_jeju_stay",
+      "user_id": "usr_jeju_stay",
+      "name": "제주스테이랩",
+      "one_liner": "제주 빈집을 워케이션 스테이로 재생하는 로컬 플랫폼",
+      "description": "제주스테이랩은(는) 2024년 창업한 제주 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 4명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "jeju",
+      "industry": "tourism_local",
+      "funding_stage": "pre_seed",
+      "founded_year": 2024,
+      "team_size": 4,
+      "team_bucket": "1_5",
+      "hashtags": [
+        "워케이션",
+        "빈집재생",
+        "로컬"
+      ],
+      "metrics": {
+        "mau": 2800,
+        "revenue_band": "1억 미만",
+        "growth_rate_pct": 62.0,
+        "total_funding_krw": 300000000
+      },
+      "views": 160,
+      "created_at": "2026-06-06T09:00:00+00:00",
+      "updated_at": "2026-06-06T09:00:00+00:00"
+    },
+    {
+      "id": "prf_gwangju_ev",
+      "user_id": "usr_gwangju_ev",
+      "name": "루멘모빌리티",
+      "one_liner": "광주 초소형 전기화물차 라스트마일 물류 솔루션",
+      "description": "루멘모빌리티은(는) 2022년 창업한 광주 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 11명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "gwangju",
+      "industry": "mobility",
+      "funding_stage": "seed",
+      "founded_year": 2022,
+      "team_size": 11,
+      "team_bucket": "11_30",
+      "hashtags": [
+        "전기차",
+        "라스트마일",
+        "물류"
+      ],
+      "metrics": {
+        "mau": 1500,
+        "revenue_band": "1억~5억",
+        "growth_rate_pct": 29.8,
+        "total_funding_krw": 1800000000
+      },
+      "views": 17,
+      "created_at": "2026-06-07T09:00:00+00:00",
+      "updated_at": "2026-06-07T09:00:00+00:00"
+    },
+    {
+      "id": "prf_ulsan_h2",
+      "user_id": "usr_ulsan_h2",
+      "name": "수소나래",
+      "one_liner": "울산 산단 부생수소를 활용한 소규모 연료전지 발전",
+      "description": "수소나래은(는) 2021년 창업한 울산 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 18명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "ulsan",
+      "industry": "energy_env",
+      "funding_stage": "pre_a",
+      "founded_year": 2021,
+      "team_size": 18,
+      "team_bucket": "11_30",
+      "hashtags": [
+        "수소",
+        "분산발전",
+        "탄소중립"
+      ],
+      "metrics": {
+        "mau": 90,
+        "revenue_band": "5억~10억",
+        "growth_rate_pct": 19.5,
+        "total_funding_krw": 4000000000
+      },
+      "views": 54,
+      "created_at": "2026-06-08T09:00:00+00:00",
+      "updated_at": "2026-06-08T09:00:00+00:00"
+    },
+    {
+      "id": "prf_gangwon_agri",
+      "user_id": "usr_gangwon_agri",
+      "name": "설악팜",
+      "one_liner": "강원 고랭지 채소 스마트팜 재배 데이터 서비스",
+      "description": "설악팜은(는) 2024년 창업한 강원 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 3명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "gangwon",
+      "industry": "agri_food",
+      "funding_stage": "pre_seed",
+      "founded_year": 2024,
+      "team_size": 3,
+      "team_bucket": "1_5",
+      "hashtags": [
+        "스마트팜",
+        "고랭지",
+        "데이터"
+      ],
+      "metrics": {
+        "mau": 640,
+        "revenue_band": "1억 미만",
+        "growth_rate_pct": 48.0,
+        "total_funding_krw": 200000000
+      },
+      "views": 91,
+      "created_at": "2026-06-09T09:00:00+00:00",
+      "updated_at": "2026-06-09T09:00:00+00:00"
+    },
+    {
+      "id": "prf_chungbuk_bio",
+      "user_id": "usr_chungbuk_bio",
+      "name": "오송바이오웍스",
+      "one_liner": "충북 오송 기반 mRNA 원료 정제 소재 개발",
+      "description": "오송바이오웍스은(는) 2020년 창업한 충북 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 32명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "chungbuk",
+      "industry": "biohealth",
+      "funding_stage": "series_a",
+      "founded_year": 2020,
+      "team_size": 32,
+      "team_bucket": "31_plus",
+      "hashtags": [
+        "바이오소재",
+        "mRNA",
+        "오송클러스터"
+      ],
+      "metrics": {
+        "mau": 45,
+        "revenue_band": "10억+",
+        "growth_rate_pct": 22.3,
+        "total_funding_krw": 12000000000
+      },
+      "views": 128,
+      "created_at": "2026-06-10T09:00:00+00:00",
+      "updated_at": "2026-06-10T09:00:00+00:00"
+    },
+    {
+      "id": "prf_jeonbuk_food",
+      "user_id": "usr_jeonbuk_food",
+      "name": "전주미식단",
+      "one_liner": "전북 로컬 식자재 B2B 큐레이션 및 새벽 배송",
+      "description": "전주미식단은(는) 2022년 창업한 전북 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 9명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "jeonbuk",
+      "industry": "commerce",
+      "funding_stage": "seed",
+      "founded_year": 2022,
+      "team_size": 9,
+      "team_bucket": "6_10",
+      "hashtags": [
+        "로컬푸드",
+        "B2B",
+        "새벽배송"
+      ],
+      "metrics": {
+        "mau": 5400,
+        "revenue_band": "1억~5억",
+        "growth_rate_pct": 33.1,
+        "total_funding_krw": 900000000
+      },
+      "views": 165,
+      "created_at": "2026-06-11T09:00:00+00:00",
+      "updated_at": "2026-06-11T09:00:00+00:00"
+    },
+    {
+      "id": "prf_jeonnam_sea",
+      "user_id": "usr_jeonnam_sea",
+      "name": "완도블루푸드",
+      "one_liner": "전남 해조류 기반 대체 단백질 식품 개발",
+      "description": "완도블루푸드은(는) 2021년 창업한 전남 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 12명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "jeonnam",
+      "industry": "agri_food",
+      "funding_stage": "pre_a",
+      "founded_year": 2021,
+      "team_size": 12,
+      "team_bucket": "11_30",
+      "hashtags": [
+        "대체단백질",
+        "해조류",
+        "푸드테크"
+      ],
+      "metrics": {
+        "mau": 780,
+        "revenue_band": "5억~10억",
+        "growth_rate_pct": 27.7,
+        "total_funding_krw": 3200000000
+      },
+      "views": 22,
+      "created_at": "2026-06-12T09:00:00+00:00",
+      "updated_at": "2026-06-12T09:00:00+00:00"
+    },
+    {
+      "id": "prf_gyeongnam_robot",
+      "user_id": "usr_gyeongnam_robot",
+      "name": "창원로보틱스",
+      "one_liner": "경남 조선소 용접 자동화 협동로봇 시스템",
+      "description": "창원로보틱스은(는) 2019년 창업한 경남 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 45명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "gyeongnam",
+      "industry": "manufacturing",
+      "funding_stage": "series_b_plus",
+      "founded_year": 2019,
+      "team_size": 45,
+      "team_bucket": "31_plus",
+      "hashtags": [
+        "협동로봇",
+        "조선",
+        "자동화"
+      ],
+      "metrics": {
+        "mau": 60,
+        "revenue_band": "10억+",
+        "growth_rate_pct": 18.9,
+        "total_funding_krw": 21000000000
+      },
+      "views": 59,
+      "created_at": "2026-06-13T09:00:00+00:00",
+      "updated_at": "2026-06-13T09:00:00+00:00"
+    },
+    {
+      "id": "prf_sejong_edu",
+      "user_id": "usr_sejong_edu",
+      "name": "세종러닝랩",
+      "one_liner": "세종 초중등 대상 AI 맞춤 학습 진단 서비스",
+      "description": "세종러닝랩은(는) 2023년 창업한 세종 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 7명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "sejong",
+      "industry": "edu_content",
+      "funding_stage": "seed",
+      "founded_year": 2023,
+      "team_size": 7,
+      "team_bucket": "6_10",
+      "hashtags": [
+        "에듀테크",
+        "AI진단",
+        "맞춤학습"
+      ],
+      "metrics": {
+        "mau": 12800,
+        "revenue_band": "1억~5억",
+        "growth_rate_pct": 35.6,
+        "total_funding_krw": 700000000
+      },
+      "views": 96,
+      "created_at": "2026-06-02T09:00:00+00:00",
+      "updated_at": "2026-06-02T09:00:00+00:00"
+    },
+    {
+      "id": "prf_chungnam_fin",
+      "user_id": "usr_chungnam_fin",
+      "name": "당진페이",
+      "one_liner": "충남 전통시장 소상공인 간편결제·정산 핀테크",
+      "description": "당진페이은(는) 2024년 창업한 충남 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 5명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "chungnam",
+      "industry": "fintech",
+      "funding_stage": "pre_seed",
+      "founded_year": 2024,
+      "team_size": 5,
+      "team_bucket": "1_5",
+      "hashtags": [
+        "간편결제",
+        "소상공인",
+        "지역화폐"
+      ],
+      "metrics": {
+        "mau": 3600,
+        "revenue_band": "1억 미만",
+        "growth_rate_pct": 58.4,
+        "total_funding_krw": 400000000
+      },
+      "views": 134,
+      "created_at": "2026-06-03T09:00:00+00:00",
+      "updated_at": "2026-06-03T09:00:00+00:00"
+    },
+    {
+      "id": "prf_busan_tour",
+      "user_id": "usr_busan_tour",
+      "name": "港투어",
+      "one_liner": "부산 원도심 골목 여행 코스 큐레이션 앱",
+      "description": "港투어은(는) 2023년 창업한 부산 기반 스타트업입니다. 지역의 산업 기반과 인재를 연결해 수도권 밖에서도 성장 가능한 비즈니스를 증명하고 있습니다. 현재 팀원 4명이 함께하고 있으며, 다음 라운드 투자 유치와 전국 단위 확장을 준비 중입니다.",
+      "region": "busan",
+      "industry": "tourism_local",
+      "funding_stage": "pre_seed",
+      "founded_year": 2023,
+      "team_size": 4,
+      "team_bucket": "1_5",
+      "hashtags": [
+        "로컬여행",
+        "큐레이션",
+        "원도심"
+      ],
+      "metrics": {
+        "mau": 8900,
+        "revenue_band": "1억 미만",
+        "growth_rate_pct": 44.2,
+        "total_funding_krw": 250000000
+      },
+      "views": 170,
+      "created_at": "2026-06-04T09:00:00+00:00",
+      "updated_at": "2026-06-04T09:00:00+00:00"
+    }
+  ]
+}

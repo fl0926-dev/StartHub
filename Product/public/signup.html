@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StartHub — 회원가입</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <script defer src="js/i18n.js"></script>
+  <script defer src="js/api.js"></script>
+  <script defer src="js/auth.js"></script>
+  <script defer src="js/components.js"></script>
+  <script defer src="js/header.js"></script>
+  <script defer src="js/pages/signup.js"></script>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="container">
+    <div class="card auth-card stack">
+      <div>
+        <span class="eyebrow">
+          <span class="node-dot" aria-hidden="true"></span>
+          JOIN
+        </span>
+        <h1 data-i18n="auth.signup_title"></h1>
+        <p class="lede small muted" id="signup-lede"></p>
+      </div>
+
+      <form id="signup-form" class="stack" novalidate>
+        <div class="field">
+          <label for="display_name" data-i18n="auth.display_name"></label>
+          <input class="input" id="display_name" name="display_name" type="text"
+                 autocomplete="organization" required>
+        </div>
+        <div class="field">
+          <label for="email" data-i18n="auth.email"></label>
+          <input class="input" id="email" name="email" type="email"
+                 autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="password" data-i18n="auth.password"></label>
+          <input class="input" id="password" name="password" type="password"
+                 autocomplete="new-password" minlength="8" required>
+          <span class="hint" data-i18n="auth.password_hint"></span>
+        </div>
+        <p class="form-error" id="form-error" role="alert"></p>
+        <button class="btn btn-primary btn-block" type="submit" data-i18n="auth.signup"></button>
+      </form>
+
+      <p class="small muted">
+        <span data-i18n="auth.have_account"></span>
+        <a href="login.html" data-i18n="auth.login"></a>
+      </p>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>

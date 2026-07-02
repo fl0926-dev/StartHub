@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StartHub — 지역 스타트업 발견</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <script defer src="js/i18n.js"></script>
+  <script defer src="js/api.js"></script>
+  <script defer src="js/auth.js"></script>
+  <script defer src="js/components.js"></script>
+  <script defer src="js/header.js"></script>
+  <script defer src="js/pages/dashboard.js"></script>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="container">
+    <div class="page-head">
+      <span class="eyebrow">
+        <span class="node-dot" aria-hidden="true"></span>
+        REGIONAL STARTUP NETWORK
+      </span>
+      <h1 data-i18n="dashboard.title"></h1>
+      <p class="lede" data-i18n="dashboard.lede"></p>
+    </div>
+    <hr class="rule-ticks" aria-hidden="true">
+
+    <div class="layout-8020">
+      <aside class="filter-panel" aria-labelledby="filters-heading">
+        <h2 id="filters-heading" class="visually-hidden" data-i18n="dashboard.filters"></h2>
+        <form id="filter-form">
+          <fieldset class="filter-group">
+            <legend data-i18n="dashboard.filter.search"></legend>
+            <input class="input" type="search" name="q"
+                   data-i18n-placeholder="common.search_placeholder">
+          </fieldset>
+
+          <fieldset class="filter-group">
+            <legend data-i18n="dashboard.filter.region"></legend>
+            <div id="region-options" class="stack-sm"></div>
+          </fieldset>
+
+          <fieldset class="filter-group">
+            <legend data-i18n="dashboard.filter.industry"></legend>
+            <select class="select" name="industry" id="industry-select"></select>
+          </fieldset>
+
+          <fieldset class="filter-group">
+            <legend data-i18n="dashboard.filter.stage"></legend>
+            <select class="select" name="stage" id="stage-select"></select>
+          </fieldset>
+
+          <fieldset class="filter-group">
+            <legend data-i18n="dashboard.filter.founded"></legend>
+            <div class="row">
+              <input class="input" type="number" name="founded_from" min="1990" max="2100"
+                     style="width:6.5em" data-i18n-placeholder="dashboard.filter.founded_from">
+              <span aria-hidden="true">—</span>
+              <input class="input" type="number" name="founded_to" min="1990" max="2100"
+                     style="width:6.5em" data-i18n-placeholder="dashboard.filter.founded_to">
+            </div>
+          </fieldset>
+
+          <fieldset class="filter-group">
+            <legend data-i18n="dashboard.filter.team"></legend>
+            <select class="select" name="team_bucket" id="bucket-select"></select>
+          </fieldset>
+
+          <fieldset class="filter-group">
+            <legend data-i18n="dashboard.filter.hashtag"></legend>
+            <input class="input" type="text" name="hashtag"
+                   data-i18n-placeholder="dashboard.filter.hashtag_placeholder">
+          </fieldset>
+
+          <button type="button" id="reset-filters" class="btn btn-secondary btn-block"
+                  data-i18n="common.reset"></button>
+        </form>
+      </aside>
+
+      <section aria-labelledby="results-heading">
+        <div class="row-between">
+          <h2 id="results-heading" class="small mono muted"><span id="result-count"></span></h2>
+          <label class="row small">
+            <span class="muted" data-i18n="common.sort"></span>
+            <select class="select" id="sort-select" style="width:auto">
+              <option value="newest" data-i18n="dashboard.sort.newest"></option>
+              <option value="views" data-i18n="dashboard.sort.views"></option>
+              <option value="stage" data-i18n="dashboard.sort.stage"></option>
+              <option value="name" data-i18n="dashboard.sort.name"></option>
+            </select>
+          </label>
+        </div>
+
+        <div id="results" class="card-grid" style="margin-top: var(--sp-4)"></div>
+        <nav id="pagination" class="pagination" aria-label="pagination"></nav>
+      </section>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>

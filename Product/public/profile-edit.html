@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StartHub — 회사 프로필</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <script defer src="js/i18n.js"></script>
+  <script defer src="js/api.js"></script>
+  <script defer src="js/auth.js"></script>
+  <script defer src="js/components.js"></script>
+  <script defer src="js/header.js"></script>
+  <script defer src="js/pages/profile-edit.js"></script>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="container">
+    <div class="page-head">
+      <span class="eyebrow">
+        <span class="node-dot" aria-hidden="true"></span>
+        COMPANY PROFILE
+      </span>
+      <h1 id="page-title"></h1>
+      <p class="lede" data-i18n="profile.form_lede"></p>
+    </div>
+    <hr class="rule-ticks" aria-hidden="true">
+
+    <form id="profile-form" class="card stack" style="max-width:720px">
+      <div class="field">
+        <label for="pf-name" data-i18n="profile.name"></label>
+        <input class="input" id="pf-name" name="name" type="text" required>
+      </div>
+
+      <div class="field">
+        <label for="pf-one-liner" data-i18n="profile.one_liner"></label>
+        <input class="input" id="pf-one-liner" name="one_liner" type="text" required
+               data-i18n-placeholder="profile.one_liner_placeholder">
+      </div>
+
+      <div class="field">
+        <label for="pf-description" data-i18n="profile.description"></label>
+        <textarea class="textarea" id="pf-description" name="description"></textarea>
+      </div>
+
+      <div class="row">
+        <div class="field" style="flex:1">
+          <label for="pf-region" data-i18n="dashboard.filter.region"></label>
+          <select class="select" id="pf-region" name="region"></select>
+        </div>
+        <div class="field" style="flex:1">
+          <label for="pf-industry" data-i18n="dashboard.filter.industry"></label>
+          <select class="select" id="pf-industry" name="industry"></select>
+        </div>
+        <div class="field" style="flex:1">
+          <label for="pf-stage" data-i18n="dashboard.filter.stage"></label>
+          <select class="select" id="pf-stage" name="funding_stage"></select>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="field" style="flex:1">
+          <label for="pf-founded-year" data-i18n="profile.founded_year"></label>
+          <input class="input" id="pf-founded-year" name="founded_year" type="number"
+                 min="1990" max="2100" required>
+        </div>
+        <div class="field" style="flex:1">
+          <label for="pf-team-size" data-i18n="profile.team_size"></label>
+          <input class="input" id="pf-team-size" name="team_size" type="number"
+                 min="1" required>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="pf-hashtags" data-i18n="profile.hashtags"></label>
+        <input class="input" id="pf-hashtags" name="hashtags" type="text">
+        <span class="hint" data-i18n="profile.hashtags_hint"></span>
+      </div>
+
+      <h2 data-i18n="profile.metrics"></h2>
+
+      <div class="row">
+        <div class="field" style="flex:1">
+          <label for="pf-mau" data-i18n="profile.metric.mau"></label>
+          <input class="input" id="pf-mau" name="mau" type="number" min="0">
+        </div>
+        <div class="field" style="flex:1">
+          <label for="pf-revenue-band" data-i18n="profile.metric.revenue_band"></label>
+          <input class="input" id="pf-revenue-band" name="revenue_band" type="text">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="field" style="flex:1">
+          <label for="pf-growth-rate" data-i18n="profile.metric.growth_rate_pct"></label>
+          <input class="input" id="pf-growth-rate" name="growth_rate_pct" type="number" step="0.1">
+        </div>
+        <div class="field" style="flex:1">
+          <label for="pf-total-funding" data-i18n="profile.metric.total_funding_krw"></label>
+          <input class="input" id="pf-total-funding" name="total_funding_krw" type="number" min="0">
+        </div>
+      </div>
+
+      <p id="form-error" class="form-error" role="alert"></p>
+
+      <button type="submit" id="save-btn" class="btn btn-primary" data-i18n="common.save"></button>
+    </form>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>

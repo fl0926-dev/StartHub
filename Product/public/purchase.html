@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StartHub — 토큰 &amp; 멤버십</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <script defer src="js/i18n.js"></script>
+  <script defer src="js/api.js"></script>
+  <script defer src="js/auth.js"></script>
+  <script defer src="js/components.js"></script>
+  <script defer src="js/header.js"></script>
+  <script defer src="js/pages/purchase.js"></script>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="container">
+    <div class="page-head">
+      <span class="eyebrow">
+        <span class="node-dot" aria-hidden="true"></span>
+        TOKENS &amp; MEMBERSHIP
+      </span>
+      <h1 data-i18n="purchase.title"></h1>
+      <p class="lede" data-i18n="purchase.lede"></p>
+    </div>
+    <hr class="rule-ticks" aria-hidden="true">
+
+    <div id="purchase-notes" class="stack-sm" style="margin-bottom: var(--sp-5)" hidden>
+      <p class="mono small muted" id="balance-note"></p>
+      <p class="mono small muted" id="costs-note"></p>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab" id="tab-packs" role="tab" type="button" aria-selected="true"
+              aria-controls="packs-section" data-i18n="purchase.tab_packs"></button>
+      <button class="tab" id="tab-membership" role="tab" type="button" aria-selected="false"
+              aria-controls="membership-section" data-i18n="purchase.tab_membership"></button>
+    </div>
+
+    <section id="packs-section" role="tabpanel" aria-labelledby="tab-packs">
+      <h2 class="visually-hidden" data-i18n="purchase.tab_packs"></h2>
+      <div id="packs-grid" class="card-grid"></div>
+    </section>
+
+    <section id="membership-section" role="tabpanel" aria-labelledby="tab-membership" hidden>
+      <h2 class="visually-hidden" data-i18n="purchase.tab_membership"></h2>
+      <div id="membership-grid" class="card-grid"></div>
+    </section>
+
+    <dialog class="modal" id="purchase-modal">
+      <h2 data-i18n="purchase.coming_soon_title"></h2>
+      <p data-i18n="purchase.coming_soon_body"></p>
+      <form method="dialog">
+        <button class="btn btn-secondary" data-i18n="common.back"></button>
+      </form>
+    </dialog>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>

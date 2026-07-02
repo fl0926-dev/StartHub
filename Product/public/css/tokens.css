@@ -1,0 +1,55 @@
+/* StartHub design tokens — the single reskin surface.
+   The UI team's final design lands here: swap values, keep names. */
+
+:root {
+  /* Palette — "연결의 청사진": drafting paper, navy ink, copper lines */
+  --paper: #f2efe7;
+  --card: #fbfaf4;
+  --ink: #1f2b3a;
+  --ink-muted: #5a6674;
+  --ink-faint: #8b94a1;
+  --copper: #b46f4a;
+  --copper-strong: #96522f;
+  --copper-soft: #e8d5c8;
+  --grid: #ddd6c6;
+  --line: #cdc5b2;
+  --danger: #a63d2f;
+  --ok: #3f6b4f;
+
+  /* Type */
+  --font-sans: "IBM Plex Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.1875rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.75rem;
+
+  /* Space (4px base) */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4.5rem;
+
+  /* Shape & depth */
+  --radius-sm: 3px;
+  --radius: 6px;
+  --radius-lg: 10px;
+  --border: 1px solid var(--line);
+  --shadow-card: 0 1px 0 rgba(31, 43, 58, 0.06), 0 6px 18px -12px rgba(31, 43, 58, 0.35);
+  --shadow-pop: 0 12px 40px -12px rgba(31, 43, 58, 0.35);
+
+  /* Motion */
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --dur: 160ms;
+
+  /* Layout */
+  --container: 1200px;
+  --header-h: 60px;
+}

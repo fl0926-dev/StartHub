@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StartHub — 커뮤니티 글</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <script defer src="js/i18n.js"></script>
+  <script defer src="js/api.js"></script>
+  <script defer src="js/auth.js"></script>
+  <script defer src="js/components.js"></script>
+  <script defer src="js/header.js"></script>
+  <script defer src="js/pages/thread.js"></script>
+</head>
+<body>
+  <header id="site-header"></header>
+
+  <main class="container">
+    <p class="small">
+      <a href="community.html">← <span data-i18n="thread.back_to_list"></span></a>
+    </p>
+
+    <article id="thread-card" class="card stack-sm" hidden
+             style="margin-top: var(--sp-4)"></article>
+
+    <section id="replies-section" aria-labelledby="replies-heading" hidden
+             style="margin-top: var(--sp-6)">
+      <h2 id="replies-heading" class="mono"></h2>
+      <div id="replies" style="margin-top: var(--sp-4)"></div>
+    </section>
+
+    <form id="reply-form" class="card stack" hidden style="margin-top: var(--sp-6)" novalidate>
+      <div id="parent-chip" hidden></div>
+      <textarea id="reply-body" class="textarea" name="body" required
+                data-i18n-placeholder="thread.reply_placeholder"></textarea>
+      <div class="row-between">
+        <span id="reply-cost" class="small muted mono"></span>
+        <button class="btn btn-primary" type="submit" data-i18n="thread.reply_btn"></button>
+      </div>
+    </form>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>
