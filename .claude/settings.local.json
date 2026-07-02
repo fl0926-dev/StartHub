@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import pypdf\")",
+      "Bash(python3 -c \"import fitz\")",
+      "Bash(python3 -)"
+    ]
+  }
+}

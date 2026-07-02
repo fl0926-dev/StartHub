@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "starthub",
+      "runtimeExecutable": "Product/.venv/bin/python",
+      "runtimeArgs": ["Product/run.py"],
+      "port": 5001,
+      "autoPort": true
+    }
+  ]
+}
